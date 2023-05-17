@@ -38,7 +38,7 @@ function App() {
               <ThreeDprinting />
               <Services />
               <Soln />
-              <Modelling/>
+              {/* <Modelling/> */}
               <WebMob/>
               <WeServe />
               
