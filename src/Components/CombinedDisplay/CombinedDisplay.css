@@ -1,0 +1,52 @@
+.three_DServe_com{
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.886), rgba(36, 33, 35, 0.88));
+}
+
+.three_DServe_com >h1{
+    font-size: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.head_serveC {
+    font-size: 100px;
+    padding-left: 4rem;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.topC{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+        margin-bottom: 5rem;
+
+}
+
+.css-17791z4-MuiPaper-root-MuiCard-root:hover{    
+        box-shadow: 8px 8px 5px 5px rgb(151, 147, 147) !important;
+}
+
+.icon {
+    color: wheat;
+}
+
+.scroll-container_com {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 20px 5px 20px;
+    background: transparent;
+    border-radius: 15px;
+}
+
+.btmsec_img_com{
+    background-color: black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-right: 10rem !important;
+    width: 150px;
+    height: 150px;
+}

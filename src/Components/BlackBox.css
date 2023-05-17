@@ -1,0 +1,38 @@
+
+.black_box{
+    background-color: rgba(15, 13, 13, 0.945);
+    height: 70px;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.prompt{
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    
+        -moz-animation: my-animation 10s linear infinite;
+        -webkit-animation: my-animation 10s linear infinite;
+        animation: my-animation 10s linear infinite;
+    
+}
+
+
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}

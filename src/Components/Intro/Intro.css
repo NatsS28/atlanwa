@@ -1,0 +1,22 @@
+.intro_contianer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+    border: 1px solid black;
+    width: 74.5%;
+    margin-left: 15rem;
+    
+}
+
+.headTxt{
+    font-family: 'Times New Roman', Times, serif;
+        font-size: 150px;
+        padding: 0rem 7rem;
+    color: #027b9a;
+}
+
+.left >h5{
+    padding-left: 8rem;
+    font-size: 30px;
+}
+

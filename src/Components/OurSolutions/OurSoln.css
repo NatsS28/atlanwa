@@ -1,0 +1,57 @@
+.cardContent{ 
+    /* display: grid;
+    grid-template-columns: 2fr 2fr; */
+    display: flex;
+    gap: 6rem;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 18px/24px "opensans-bold", sans-serif;
+}
+
+.css-17791z4-MuiPaper-root-MuiCard-root:hover{
+    cursor: pointer !important;
+    box-shadow:5px 5px 5px 5px rgb(71, 67, 67) !important;
+}
+
+.ourSoln{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    height: 650px;
+    background-color: #efe1bd;
+     /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+}
+
+.css-1999db7-MuiCardMedia-root{
+    height: 250px !important;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.head_ourSoln{
+    padding-top: 20px;
+    letter-spacing: 3px;
+    padding-bottom: 6rem;
+}
+
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+    margin-left: 4.5rem !important;
+    width: 100px;
+    height: 50px;
+    background-color: #027b9a !important;
+    color: white !important;
+}
+
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root:hover {
+    color: green !important;
+    background-color: white !important;
+    border: 2px black solid !important;
+    
+}
+
+.css-o4knrz-MuiPaper-root-MuiCard-root{ 
+    /* typo */
+
+}

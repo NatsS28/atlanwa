@@ -1,0 +1,40 @@
+.textContentdrone {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.textContentdrone>h1 {
+    font-size: 70px;
+    /* margin-bottom: 3rem;
+    margin-left: 5rem; */
+}
+
+.textContentdrone>h3 {
+    font-size: 23px;
+    margin-left: 5rem;
+    color: black;
+}
+
+.textContentdrone>h4 {
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+
+.whiteText {
+    color:white !important;
+    padding-right: 10px;
+}
+
+
+
+
+.bms2_drone{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: whitesmoke !important;
+}

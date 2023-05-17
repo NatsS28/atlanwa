@@ -1,0 +1,90 @@
+.topsec{
+    padding: 1rem;
+    margin-left: 15rem;
+    background-color: black;
+}
+
+
+.topsec_img{
+    width: 150px;
+    height: 150px;
+   
+}
+
+.btmsec_img:hover {
+    cursor: pointer !important;
+    box-shadow: 8px 8px 5px 5px rgb(71, 67, 67) !important;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 5rem;
+}
+
+.btmsec {
+    padding: 1rem;
+    
+}
+
+.btmsec_img {
+    background-color: black;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 150px;
+}
+
+.css-ptiqhd-MuiSvgIcon-root{
+   height: 100px;
+    width: 100px;
+    margin-top: 2rem;
+}
+
+.head_threeD_service{
+    font-size: 100px;
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services{
+
+                height: auto;
+
+                flex-direction: row;
+                border-radius: 10px;
+                /* background-image: linear-gradient(to right, rgba(251, 242, 150, 0.886), rgba(200, 110, 170, 0.88)); */
+                background-color: #efe1bd;
+                
+        
+}
+
+/* for scrolling */
+
+.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 50px;
+    background: transparent;
+    height: 80%;
+    width: 70%;
+    margin-left: 15rem;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar{
+    color: red;
+}
+
+.gridscroll {
+    display: inline-block;
+}
+
+.gridscroll img {
+    margin-right: 22px;
+}
+

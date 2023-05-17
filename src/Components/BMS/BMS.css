@@ -1,0 +1,50 @@
+.bms {
+    height: 700px;
+    display: flex;
+    color: whitesmoke;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.886), rgba(8, 8, 8, 0.633));
+    margin-bottom: 10rem;
+}
+
+.textContentbms{
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContentbms > h1{
+    font-size: 70px;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.textContentbms>h3 {
+    font-size: 23px;
+    margin-bottom: 3rem;
+        margin-left: 5rem;
+}
+
+.textContentbms>h4 {
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+
+.fr{
+    color: black !important;
+    padding-right: 10px;
+}
+
+
+
+.bms2{  
+    width: 80%;
+        margin-left: 13rem;
+            display: flex;
+            color: whitesmoke !important;
+            margin-bottom: 10rem;
+}
+
+

@@ -1,0 +1,32 @@
+.textContentModelling {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContentModelling>h1 {
+    font-size: 70px;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.textContentModelling>h3 {
+    font-size: 23px;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.textContentModelling>h4 {
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+
+.modelling {
+    width: 100%;
+    display: flex;
+    color: whitesmoke !important;
+    margin-bottom: 10rem;
+}

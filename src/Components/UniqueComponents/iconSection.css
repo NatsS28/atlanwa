@@ -1,0 +1,22 @@
+.icon_section_img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.icon_section{
+    display: flex;
+    background-color: rgb(159, 159, 159);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.icon_section > div{
+    padding-right: 4rem;
+}
+
+.child{
+    display: block !important;
+}
