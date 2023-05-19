@@ -1,7 +1,6 @@
 {
   "name": "atlanwa",
   "version": "0.1.0",
-  "homepage": "https://NatsS28ithub.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",

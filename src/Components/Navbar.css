@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   height: 50px;
-  background-color: #027b9a;
+  background-color: #252839;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +11,7 @@
   margin-bottom: 2rem;
   position: fixed;
 }
-
+/*   027b9a
 .navbar_logo h2 {
   color: white;
   font-size: 1.4rem;
@@ -48,7 +48,7 @@
   background: #333;
   padding: 10px;
   border-radius: 8px;
-}
+} */
 
 .cart_link:hover {
   background: #dd219e;
@@ -91,26 +91,27 @@
 /*for navbar*/
 
 .navbar .links {
-  font-size: 25px;
-  color: white;
-  padding: 10px;
-  border-radius: 8px;
-  margin-right: 550px;
+  /* font-size: 25px;
+  color: white; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10rem;
 
 }
 
-.links a {
+/* .links a {
   margin: 20px;
   color: white;
   text-decoration: none;
   padding-left: -100px;
-}
+} */
 
-.links a:hover {
+/* .links a:hover {
   cursor: pointer;
   font-weight: bold;
   color: #dd219e;
-}
+} */
 
 @media (max-width: 960px) {
   .navbar .links {
@@ -133,4 +134,78 @@
     width: 40px;
     height: 40px;
     border-radius: 5px;
+}
+
+
+
+/* custom animation */
+
+
+ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+}
+
+ul li a {
+    position: relative;
+    font-size: 1.5em;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    
+}
+
+#shop::before,#Td::before,#web::before,#bms::before,#robotics::before,#drones::before {
+    content: attr(data-text);
+    position: absolute;
+    color: #00ade1;
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 8px solid black;
+    -webkit-text-stroke: 1px #00ade1;
+}
+#shop::before{
+border-right: 8px solid #00ade1;
+    -webkit-text-stroke: 1px #00ade1;
+}
+#Td::before{
+    border-right: 8px solid #ff6493;
+        -webkit-text-stroke: 1px #ff6493;
+}
+#web::before {
+    border-right: 8px solid #ffdd1c;
+    -webkit-text-stroke: 1px #ffdd1c;
+}
+#bms::before {
+    border-right: 8px solid #00dc82;
+    -webkit-text-stroke: 1px #00dc82;
+}
+#robotics::before {
+    border-right: 8px solid #00dc82;
+    -webkit-text-stroke: 1px #00dc82;
+}
+#drones::before {
+    border-right: 8px solid #dc00d4;
+    -webkit-text-stroke: 1px #dc00d4;
+}
+
+/* ul li a:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 20px black);
+} */
+
+
+#shop:hover::before,#Td:hover::before,#web:hover::before,#bms:hover::before,#robotics:hover::before,#drones:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 20px black);
 }

@@ -11,6 +11,12 @@ import r6 from '../images/icon_section/robo_icons/robo6.webp';
 import r7 from '../images/icon_section/robo_icons/robo7.webp';
 import r8 from '../images/icon_section/robo_icons/robo7.jpeg';
 import r9 from '../images/icon_section/robo_icons/robo8.jpeg';
+import webImg from '../images/web.jpeg';
+import androidImg from '../images/androidapp.jpeg'
+import android2 from '../images/android2.png';
+import android3 from '../images/android3.png';
+import web3 from '../images/webImg3.png';
+import web2  from '../images/websiteimg2.jpeg'
 
 function WeServe(props) {
     console.log(props.displayTime)
@@ -21,15 +27,15 @@ function WeServe(props) {
           <div className='scroll-container'>
 
               <div className='gridscroll'>
-                  <img className='btmsec_img_single' src={r1} alt='' ></img>
-                  <img className='btmsec_img_single' src={r2} alt='' />
-                  <img className='btmsec_img_single' src={r3} alt='' />
-                  <img className='btmsec_img_single' src={r4} alt='' />
-                  <img className='btmsec_img_single' src={r5} alt='' />
-                  <img className='btmsec_img_single' src={r6} alt='' />
-                  <img className='btmsec_img_single' src={r7} alt='' />
+                  <img className='btmsec_img_single' src={props.displayTime == 2 ? r1 : androidImg} alt='' ></img>
+                  <img className='btmsec_img_single' src={props.displayTime == 2 ? r2 : webImg} alt='' />
+
+                  <img className='btmsec_img_single' src={props.displayTime == 2 ? r4 : web2} alt='' />
+                  <img className='btmsec_img_single' src={props.displayTime == 2 ? r5 : android3} alt='' />
+                  <img className='btmsec_img_single' src={props.displayTime == 2 ? r2 : web3} alt='' />
+                  {/* <img className='btmsec_img_single' src={r7} alt='' />
                   <img className='btmsec_img_single' src={r8} alt='' />
-                  <img className='btmsec_img_single' src={r9} alt='' />
+                  <img className='btmsec_img_single' src={r9} alt='' /> */}
               </div>
           </div>
       </div>

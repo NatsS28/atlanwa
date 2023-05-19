@@ -20,13 +20,16 @@ import d19 from '../images/drone_ourservices_icons/droneServices19.jpg'
 
 export const Img = [
     {
-        "img":`${d1}`,
+        "img": `${d1}`,
+        "name": "Rental",
     },
 {
-    "img":`${d2}`,
+    "img": `${d12}`,
+    "name": "Customer Drones"
     },
     {
-        "img": `${d3}`,
+        "img": `${d15}`,
+        "name":"simulation and modelling"
     },
     // {
     //     "img": `${d4}`,
@@ -59,7 +62,7 @@ export const Img2 = [
         "img": `${d11}`,
     },
     {
-        "img": `${d12}`,
+        "img": `${d2}`,
     },
     {
         "img": `${d13}`,
@@ -68,6 +71,6 @@ export const Img2 = [
         "img": `${d14}`,
     },
     {
-        "img": `${d15}`,
+        "img": `${d3}`,
     },
 ]

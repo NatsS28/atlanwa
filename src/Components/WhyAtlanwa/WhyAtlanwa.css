@@ -41,8 +41,15 @@ font: 18px/24px "opensans-bold", sans-serif;
     letter-spacing: 3px;
 }
 
-.tail{
+.tail_why{
     font-size: 14px;
+    display: flex;
+}
+.tail_container{
+    padding-top: 1rem;
+    display: flex;
+    width: 400px;
+    height: 100px;
 }
 
 .contents{

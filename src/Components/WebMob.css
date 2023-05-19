@@ -17,6 +17,10 @@
     color: white;
 }
 
+.textSection_web>h3{
+    padding: 1rem;
+}
+
 .headSoln_web {
     font-size: 70px;
     color: rgb(142, 180, 39);
